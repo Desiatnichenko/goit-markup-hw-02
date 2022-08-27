@@ -1,0 +1,291 @@
+:root {
+    --main-background-color: #ffffff;
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --hero-btn-color: #2196f3;
+    --hero-btn-act-color: #188ce8;
+    --hero-bg-color: #2f303a;
+    --footer-bg-color: #2f303a;
+    --hero-text-color: #ffffff;
+    --footer-text-color: #ffffff;
+    --act-btn-txt-color: #ffffff;
+    --logo-black-color: #000000;
+    --logo-blue-color: #2196f3;
+    --team-bg-color: #f5f4fa;
+    --team-card-color: #ffffff;
+    --portfolio-btn-color: #f5f4fa;
+    --portfolio-item-border: #eeeeee;
+  }
+  ​
+  html {
+    box-sizing: border-box;
+  }
+  ​
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    outline: 1px solid teal;
+  }
+  ​
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+  }
+  ​
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  ​
+  .container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  ​
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .main-header {
+    margin-bottom: 94px;
+  }
+  .link-logo,
+  .link-logo1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  .link-logo {
+    color: var(--logo-black-color);
+  }
+  .link-logo1,
+  .footer-logo1 {
+    color: var(--logo-blue-color);
+  }
+  .nav-link,
+  .mailto,
+  .telephone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  .nav-link {
+    color: var(--main-text-color);
+  }
+  .mailto,
+  .telephone,
+  .benefits-txt,
+  .team-role,
+  .portfolio-txt {
+    color: var(--secondary-text-color);
+  }
+  .nav-link:hover,
+  .mailto:hover,
+  .telephone:hover,
+  .nav-link:focus,
+  .mailto:focus,
+  .telephone:focus {
+    color: var(--accent-color);
+  }
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  .hero {
+    background-color: var(--hero-bg-color);
+    text-align: center;
+    margin-bottom: 94px;
+  }
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-text-color);
+  }
+  .hero-btn {
+    min-width: 216px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: inherit;
+    background-color: var(--hero-btn-color);
+    color: var(--hero-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.89;
+    letter-spacing: 0.06em;
+  }
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background-color: var(--hero-btn-act-color);
+    cursor: pointer;
+  }
+  .benefits {
+    margin-bottom: 94px;
+  }
+  .benefits-item-title {
+    margin-bottom: 10px;
+  }
+  .benefits-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .benefits-txt {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .h2-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+  .occupation {
+    margin-bottom: 94px;
+  }
+  .occupation-title {
+    margin-bottom: 50px;
+  }
+  .occupation-list-img,
+  .team-img {
+    display: block;
+  }
+  .team {
+    background-color: var(--team-bg-color);
+  }
+  .team-item {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--team-card-color);
+  }
+  .team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  .team-role {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  .portfolio {
+    margin-bottom: 94px;
+  }
+  .portfolio-filter {
+    margin-bottom: 34px;
+    /* display: flex; */
+  }
+  .site-footer {
+    background-color: var(--footer-bg-color);
+  }
+  .footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+    text-decoration: none;
+  }
+  .footer-address,
+  .footer-mailto,
+  .footer-tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  .footer-address {
+    color: var(--footer-text-color);
+  }
+  .footer-mailto,
+  .footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer-address:hover,
+  .footer-mailto:hover,
+  .footer-tel:hover,
+  .footer-address:focus,
+  .footer-mailto:focus,
+  .footer-tel:focus {
+    color: var(--accent-color);
+  }
+  ​
+  .portfolio-btn {
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--portfolio-btn-color);
+  }
+  .portfolio-btn:hover,
+  .portfolio-btn:focus {
+    padding-top: 6px;
+    padding-right: 25px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    color: var(--act-btn-txt-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+  }
+  .portfolio-item {
+    border: 1px solid var(--portfolio-item-border);
+  }
+  .portfolio-img {
+    display: block;
+  }
+  .potfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  .portfolio-txt {
+    font-size: 16px;
+    line-height: 1.89;
+    letter-spacing: 0.03em;
+  }
+  .nav-link.current {
+    color: var(--accent-color);
+  }
+  
