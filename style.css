@@ -128,6 +128,7 @@
     color: var(--hero-text-color);
   }
   .hero-btn {
+    font-family: inherit;
     min-width: 216px;
     padding-top: 10px;
     padding-bottom: 10px;
